@@ -403,7 +403,7 @@ public abstract class Command implements CommandInterface {
      */
     public boolean canReuse() {
         return false;
-    }
+    } //edited to false
 
     /**
      * The command is now re-used, therefore reset the canReuse flag, and the
