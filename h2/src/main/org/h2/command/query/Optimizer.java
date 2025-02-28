@@ -103,7 +103,7 @@ class Optimizer {
                 // 100 microseconds * cost
                 && System.nanoTime() - startNs > cost * 100_000L;
     }
-
+//modified calculateBruteForceAll
     private void calculateBruteForceAll(boolean isSelectCommand) {
         TableFilter[] list = new TableFilter[filters.length];
         Permutations<TableFilter> p = Permutations.create(filters, list);
